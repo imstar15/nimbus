@@ -22,7 +22,7 @@ frame-benchmarking = { git = "https://github.com/purestake/substrate", optional 
 
 [dev-dependencies]
 frame-support-test = { git = "https://github.com/purestake/substrate", version = "3.0.0" , branch = "moonbeam-polkadot-v0.9.29" }
-sp-io = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.29" }
+sp-io = { git = "https://github.com/imstar15/substrate", branch = "polkadot-v0.9.29" }
 
 [features]
 default = [ "std" ]
