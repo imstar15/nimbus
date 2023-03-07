@@ -75,16 +75,16 @@ sp-timestamp = { git = "https://github.com/imstar15/substrate", branch = "polkad
 sp-transaction-pool = { git = "https://github.com/imstar15/substrate", branch = "polkadot-v0.9.29" }
 
 # Cumulus dependencies
-cumulus-client-cli = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-client-collator = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-client-consensus-common = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-client-network = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-client-service = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-primitives-core = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-primitives-parachain-inherent = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-relay-chain-inprocess-interface = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-relay-chain-interface = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
-cumulus-relay-chain-rpc-interface = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.29" }
+cumulus-client-cli = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-client-collator = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-client-consensus-common = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-client-network = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-client-service = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-primitives-core = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-primitives-parachain-inherent = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-relay-chain-inprocess-interface = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-relay-chain-interface = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
+cumulus-relay-chain-rpc-interface = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.29" }
 
 # Polkadot dependencies
 polkadot-cli = { git = "https://github.com/imstar15/polkadot", branch = "polkadot-v0.9.29" }
