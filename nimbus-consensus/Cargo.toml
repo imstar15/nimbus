@@ -20,12 +20,12 @@ sp-runtime = { git = "https://github.com/purestake/substrate", branch = "moonbea
 substrate-prometheus-endpoint = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.38" }
 
 # Polkadot dependencies
-polkadot-client = { git = "https://github.com/purestake/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+polkadot-client = { git = "https://github.com/imstar15/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
 
 # Cumulus dependencies
-cumulus-client-consensus-common = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-primitives-core = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-primitives-parachain-inherent = { git = "https://github.com/purestake/cumulus", branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-client-consensus-common = { git = "https://github.com/imstar15/cumulus", branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-primitives-core = { git = "https://github.com/imstar15/cumulus", branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-primitives-parachain-inherent = { git = "https://github.com/imstar15/cumulus", branch = "moonbeam-polkadot-v0.9.38" }
 
 # Nimbus Dependencies
 nimbus-primitives = { path = "../nimbus-primitives" }

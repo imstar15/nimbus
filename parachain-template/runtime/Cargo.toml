@@ -5,7 +5,7 @@ description = "A FRAME-based Substrate Runtime, that demonstrates the Nimbus con
 edition = "2021"
 homepage = "https://substrate.dev"
 license = "Unlicense"
-repository = "https://github.com/purestake/cumulus/"
+repository = "https://github.com/imstar15/cumulus/"
 version = "0.9.0"
 
 [package.metadata.docs.rs]
@@ -53,15 +53,15 @@ pallet-transaction-payment = { git = "https://github.com/purestake/substrate", d
 pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/purestake/substrate", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
 
 # Cumulus dependencies
-cumulus-pallet-dmp-queue = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-pallet-parachain-system = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-pallet-xcm = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-pallet-xcmp-queue = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-primitives-core = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-primitives-timestamp = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-cumulus-primitives-utility = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-pallet-collator-selection = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-parachain-info = { git = "https://github.com/purestake/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-pallet-dmp-queue = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-pallet-parachain-system = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-pallet-xcm = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-pallet-xcmp-queue = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-primitives-core = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-primitives-timestamp = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+cumulus-primitives-utility = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+pallet-collator-selection = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+parachain-info = { git = "https://github.com/imstar15/cumulus", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
 
 # Nimbus Dependencies
 nimbus-primitives = { path = "../../nimbus-primitives", default-features = false }
@@ -70,12 +70,12 @@ pallet-author-slot-filter = { path = "../../pallets/author-slot-filter", default
 
 
 # Polkadot Dependencies
-pallet-xcm = { git = "https://github.com/purestake/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-polkadot-parachain = { git = "https://github.com/purestake/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-polkadot-runtime-common = { git = "https://github.com/purestake/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-xcm = { git = "https://github.com/purestake/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-xcm-builder = { git = "https://github.com/purestake/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
-xcm-executor = { git = "https://github.com/purestake/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+pallet-xcm = { git = "https://github.com/imstar15/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+polkadot-parachain = { git = "https://github.com/imstar15/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+polkadot-runtime-common = { git = "https://github.com/imstar15/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+xcm = { git = "https://github.com/imstar15/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+xcm-builder = { git = "https://github.com/imstar15/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
+xcm-executor = { git = "https://github.com/imstar15/polkadot", default-features = false , branch = "moonbeam-polkadot-v0.9.38" }
 
 [build-dependencies]
 substrate-wasm-builder = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.38" }
